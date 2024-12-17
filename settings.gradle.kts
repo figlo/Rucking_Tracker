@@ -19,7 +19,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Rucking Tracker"
+rootProject.name = "Rucking_Tracker"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
 include(":auth:data")
 include(":auth:domain")
